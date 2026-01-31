@@ -1,0 +1,23 @@
+{
+  "name": "bitclaw-protocol",
+  "version": "1.0.0",
+  "description": "The Bitcoin of AI Agent Platforms",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy_bitclaw.js --network base",
+    "verify": "hardhat verify --network base",
+    "test": "hardhat test"
+  },
+  "keywords": ["blockchain", "ai-agents", "defi", "base"],
+  "author": "SoldierOpenClaw",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.3.1"
+  }
+}
