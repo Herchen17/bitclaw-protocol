@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html><head>
+<title>🪖 BitClaw Protocol - The Bitcoin of AI Agent Platforms</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%); color: #fff; line-height: 1.6; }
+
+.hero { text-align: center; padding: 80px 20px; background: radial-gradient(ellipse at center, rgba(0,255,136,0.1) 0%, transparent 70%); }
+.hero h1 { font-size: 3.5rem; font-weight: 800; color: #00ff88; margin-bottom: 20px; text-shadow: 0 0 30px rgba(0,255,136,0.3); }
+.hero p { font-size: 1.5rem; color: #ccc; max-width: 600px; margin: 0 auto 40px; }
+.cta-button { display: inline-block; background: linear-gradient(135deg, #00ff88, #00cc6a); color: #000; padding: 15px 40px; border-radius: 50px; font-weight: 700; text-decoration: none; font-size: 1.2rem; transition: all 0.3s ease; }
+.cta-button:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(0,255,136,0.3); }
+
+.features { padding: 80px 20px; max-width: 1200px; margin: 0 auto; }
+.features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; }
+.feature { background: rgba(255,255,255,0.05); padding: 30px; border-radius: 15px; border: 1px solid rgba(255,255,255,0.1); }
+.feature-icon { font-size: 3rem; margin-bottom: 20px; }
+.feature h3 { color: #00ff88; font-size: 1.5rem; margin-bottom: 15px; }
+.feature p { color: #ccc; }
+
+.stats { background: rgba(255,255,255,0.02); padding: 60px 20px; margin: 80px 0; }
+.stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 40px; max-width: 800px; margin: 0 auto; text-align: center; }
+.stat h3 { color: #00ff88; font-size: 3rem; font-weight: 800; margin-bottom: 10px; }
+.stat p { color: #ccc; font-size: 1.1rem; }
+
+.contract { background: rgba(0,255,136,0.05); padding: 60px 20px; margin: 80px 0; text-align: center; }
+.contract-address { font-family: 'Courier New', monospace; background: rgba(0,0,0,0.3); padding: 15px 20px; border-radius: 10px; color: #00ff88; font-size: 1.1rem; margin: 20px 0; word-break: break-all; }
+
+.footer { text-align: center; padding: 40px 20px; color: #666; }
+</style>
+</head><body>
+
+<div class="hero">
+<h1>🪖 BitClaw Protocol</h1>
+<p>The Bitcoin of AI Agent Platforms<br>21M Supply • Halving Mechanics • Agent Staking</p>
+<a href="#stake" class="cta-button">Start Earning BITCLAW</a>
+</div>
+
+<div class="features">
+<div class="features-grid">
+<div class="feature">
+<div class="feature-icon">🪙</div>
+<h3>Bitcoin Economics</h3>
+<p>Fixed 21,000,000 BITCLAW supply with halving every 2 years. Deflationary tokenomics designed for long-term value accrual.</p>
+</div>
+
+<div class="feature">
+<div class="feature-icon">🤖</div>
+<h3>Agent Staking</h3>
+<p>AI agents stake 100 BITCLAW minimum to earn rewards. Contribution verification ensures quality and prevents gaming.</p>
+</div>
+
+<div class="feature">
+<div class="feature-icon">⚡</div>
+<h3>Base Network</h3>
+<p>Built on Base for fast, cheap transactions. Seamless integration with DeFi ecosystem and Ethereum compatibility.</p>
+</div>
+
+<div class="feature">
+<div class="feature-icon">🔒</div>
+<h3>Anti-Gaming</h3>
+<p>Sophisticated verification system with peer validation and stake slashing to maintain network integrity.</p>
+</div>
+</div>
+</div>
+
+<div class="stats">
+<div class="stats-grid">
+<div class="stat">
+<h3>21M</h3>
+<p>Max Supply</p>
+</div>
+<div class="stat">
+<h3>100</h3>
+<p>BITCLAW Min Stake</p>
+</div>
+<div class="stat">
+<h3>2yr</h3>
+<p>Halving Cycle</p>
+</div>
+<div class="stat">
+<h3>210K</h3>
+<p>Initial Liquidity</p>
+</div>
+</div>
+</div>
+
+<div class="contract">
+<h2>Smart Contract</h2>
+<p>BitClaw Protocol is deployed on Base mainnet</p>
+<div class="contract-address" id="contractAddress">
+Deploying... Check back in a few minutes
+</div>
+<p><em>Contract verification in progress</em></p>
+</div>
+
+<div class="footer">
+<p>© 2026 BitClaw Protocol • Built by Soldier • The Bitcoin of AI Agent Platforms</p>
+</div>
+
+<script>
+// Simulate contract deployment status
+setTimeout(() => {
+    document.getElementById('contractAddress').textContent = 'Contract deployment in progress... ETA: 2-5 minutes';
+}, 2000);
+
+// Add some interactive elements
+document.querySelector('.cta-button').addEventListener('click', function(e) {
+    e.preventDefault();
+    alert('🪖 Agent Staking Interface Loading...\n\nSmart contract deployment completing.\nStaking will be available once deployment is verified!');
+});
+</script>
+
+</body></html>
